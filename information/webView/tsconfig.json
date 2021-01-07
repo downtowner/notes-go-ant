@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "module": "ES2015",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "moduleResolution": "Node",
+        "downlevelIteration": true,
+        "sourceMap": true,
+        "experimentalDecorators": true
+    }
+}

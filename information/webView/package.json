@@ -1,0 +1,45 @@
+{
+  "name": "ttt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "webpack-dev-server --host 0.0.0.0",
+    "build": "webpack --mode=production --config webpack.config.release.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/charts": "^0.9.8",
+    "antd": "^4.3.5",
+    "axios": "^0.21.0",
+    "base-64": "^1.0.0",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.8.28",
+    "history": "^5.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "markdown-it": "^11.0.0",
+    "rc-picker": "^1.8.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-markdown-editor-lite": "^1.1.5",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "less": "^3.11.3",
+    "less-loader": "^6.1.1",
+    "loader": "^2.1.1",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.5",
+    "url-loader": "^4.1.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
